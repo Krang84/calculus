@@ -7,7 +7,7 @@ population = pd.Series(
 )
 
 plt.figure()
-plt.plot(population.index, population.values, marker='o')
+plt.scatter(population.index, population.values)
 plt.xlabel("Années (depuis l'origine)")
 plt.ylabel("Population (millions)")
 plt.title("Évolution de la population")
